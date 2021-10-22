@@ -1,5 +1,5 @@
 import React from "react";
-// import Button from './Button'
+import Button from "../Button/Button";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 
@@ -25,7 +25,7 @@ const Footer = () => {
           </form>
         </div>
 
-        {/* <Button buttonStyle='btn--outline'>Subscribe</Button> */}
+        <Button>Subscribe</Button>
       </section>
 
       <div className='footer-links'>
@@ -70,7 +70,7 @@ const Footer = () => {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              ReactWorld
+              HealthCare
               <i className='fab fa-typo3' />
             </Link>
           </div>
