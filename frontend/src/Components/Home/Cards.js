@@ -61,7 +61,7 @@ const Cards = () => {
               // src={`process.env.PUBLIC_URL/images/img-9.jpg`}
               text='Part 1'
               label='Adventure'
-              path='/'
+              path='/page8'
             />
           </ul>
         </div>

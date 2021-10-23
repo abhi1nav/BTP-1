@@ -1,5 +1,5 @@
 import React from "react";
-// import Button from './Button'
+import Button from "../Button/Button";
 import "./Footer.css";
 import { Link } from "react-router-dom";
 
@@ -25,7 +25,7 @@ const Footer = () => {
           </form>
         </div>
 
-        {/* <Button buttonStyle='btn--outline'>Subscribe</Button> */}
+        <Button>Subscribe</Button>
       </section>
 
       <div className='footer-links'>
@@ -49,19 +49,21 @@ const Footer = () => {
 
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
+            <h2>Legal</h2>
+            <Link to='/Privacy Policy'>Privacy Policy</Link>
+            <Link to='/Terms and Conditions'>
+              Terms and <br /> Conditions
+            </Link>
+            {/* <Link to='/'>Careers</Link>
             <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
+            <Link to='/'>Terms of Service</Link> */}
           </div>
           <div className='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            <Link to='/Instagram'>Instagram</Link>
+            <Link to='/Facebook'>Facebook</Link>
+            <Link to='/Twitter'>Twitter</Link>
+            <Link to='/Linkedin'>Linkedin</Link>
           </div>
         </div>
       </div>
@@ -70,7 +72,7 @@ const Footer = () => {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/' className='social-logo'>
-              ReactWorld
+              HealthCare
               <i className='fab fa-typo3' />
             </Link>
           </div>
