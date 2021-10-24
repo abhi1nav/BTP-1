@@ -14,12 +14,12 @@ const Cards = () => {
               // src={`process.env.PUBLIC_URL/images/img-9.jpg`}
               text='Part 1'
               label='Adventure'
-              path='/'
+              path='/Part1'
             />
             <CardItem
               src='https://www.healthcareitnews.com/sites/hitn/files/mhealth_illustration.jpg'
               // src={`process.env.PUBLIC_URL/images/img-9.jpg`}
-              text='Part 1'
+              text='Part 2'
               label='Adventure'
               path='/'
             />
