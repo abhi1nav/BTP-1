@@ -2,3 +2,33 @@
   display: flex;
   flex-direction: row;
 }
+
+.h1-top {
+  color: rgb(172, 125, 125);
+  margin-left: 6%;
+  margin-top: 2%;
+
+  font-size: 2.5vw;
+}
+
+.img-p1 {
+  width: 110%;
+  height: 60%;
+}
+
+.img-blw-txt {
+  margin-bottom: 2%;
+}
+
+h2 {
+  color: rgb(123, 124, 121);
+  margin-bottom: 5%;
+}
+
+.btn-link {
+  margin-top: 10%;
+}
+
+.btn:hover {
+  color: blue;
+}

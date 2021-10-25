@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Button from "../../Components/Button/Button";
 import "./TopicScreen.css";
 
 const TopicScreen = () => {
@@ -6,43 +8,49 @@ const TopicScreen = () => {
     <div className='div-row'>
       <div>
         <img
-          src='https://www.huggies.co.in/-/media/Project/HuggiesIN/Images/Product-Listing/New_Born_588x306_6.jpg?h=306&w=588&hash=033A234B506EE22F8BF1A2ED9E671F81'
+          className='img-p1'
+          src='https://the-gadgeteer.com/wp-content/uploads/2019/11/pampers-lumi-smart-diapers-01.jpg'
           alt='lol'
         ></img>
 
-        <h2>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+        <h2 className='img-blw-txt'>
+          A new smart diaper can send alert to parents when it's time for a
+          change and can also predict the next pee time.
         </h2>
+
+        <h2 className='btn-abv-text'>You can download our application here</h2>
+
+        <a href='https://www.google.com/'>
+          <Button className='btn-link'>Visit Google</Button>
+        </a>
       </div>
 
       <div>
-        <h1>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
+        <h1 className='h1-top'>
+          A wet diaper is a main cause for rashes and various other bacterial
+          skin infections .{/* infections, loreum ipsum smssdsf sadafdaf. */}
+        </h1>
+
+        <h1 className='h1-top'>
+          A new smart diaper deployed with RFID sensors for real time
+          communication, can sense the wetness and wirelessly send notification
+          to parents/caregiver that it's time for a change , which ultimately
+          cut down on diaper rash and other problems that causes due to late
+          changing.
+        </h1>
+
+        <h1 className='h1-top'>
+          Our application can also predict the next pee time as well which is
+          not just used for babies, but for the patients who are unable to take
+          care of themselves .<br />
+        </h1>
+
+        <h1 className='h1-top'>
+          It could be convenient for a caregiver to be notified that a patient
+          needs changing .
         </h1>
 
         <br />
-        <h2>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </h2>
       </div>
     </div>
   );
