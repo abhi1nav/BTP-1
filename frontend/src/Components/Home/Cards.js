@@ -23,47 +23,47 @@ const Cards = () => {
               src='https://www.healthcareitnews.com/sites/hitn/files/mhealth_illustration.jpg'
               // src={`process.env.PUBLIC_URL/images/img-9.jpg`}
               text='Part 2'
-              label='Adventure'
+              label='Sensor 2'
               path='/'
             />
             <CardItem
               src='https://www.healthcareitnews.com/sites/hitn/files/mhealth_illustration.jpg'
               // src={`process.env.PUBLIC_URL/images/img-9.jpg`}
-              text='Part 1'
-              label='Adventure'
+              text='Part 3'
+              label='Sensor 3'
               path='/'
             />
             <CardItem
               src='https://www.healthcareitnews.com/sites/hitn/files/mhealth_illustration.jpg'
-              text='Part 2'
-              label='Luxury'
+              text='Part 4'
+              label='Sensor 4'
               path='/'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
               src='https://www.healthcareitnews.com/sites/hitn/files/mhealth_illustration.jpg'
-              text='Part 3'
-              label='Mystery'
+              text='Part 5'
+              label='Sensor 5'
               path='/'
             />
             <CardItem
               src='https://www.healthcareitnews.com/sites/hitn/files/mhealth_illustration.jpg'
-              text='Part 4'
-              label='Adventure'
+              text='Part 6'
+              label='Sensor 6'
               path='/'
             />
             <CardItem
               src='https://www.healthcareitnews.com/sites/hitn/files/mhealth_illustration.jpg'
               text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non elit nec urna vvel sagittis lobortis, diam orci vulputate arcu, at tempus dui nisl et metus.'
-              label='Adrenaline'
+              label='Sensor 7'
               path='/'
             />
             <CardItem
               src='https://www.healthcareitnews.com/sites/hitn/files/mhealth_illustration.jpg'
               // src={`process.env.PUBLIC_URL/images/img-9.jpg`}
-              text='Part 1'
-              label='Adventure'
+              text='Part 8'
+              label='Sensor 8'
               path='/page8'
             />
           </ul>
